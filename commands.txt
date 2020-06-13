@@ -1,0 +1,15 @@
+pythonStock/Scripts/activate - start venv 
+
+django-admin startproject stocks - start a new project
+
+python manage.py migrate - create a DB for Django
+
+python manage.py runserver - run server for Django
+
+python manage.py startapp quotes - create a new app
+
+python manage.py createsuperuser - create a new user
+
+python manage.py makemigrations - create a "table" in the DB after adding it as a model in the models.py file, then use migrate command above
+ 
+
